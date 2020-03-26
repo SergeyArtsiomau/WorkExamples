@@ -1,6 +1,8 @@
 package dog;
 
-public class Dog {
+import polymorphism.Animal;
+
+public class Dog extends Animal {
 
   int size;
   String breed;
@@ -22,5 +24,13 @@ public class Dog {
       System.out.println("Гаф");
       numOfBarks--;
     }
+  }
+
+  public void makeNoise(){
+
+  }
+
+  public void eat(){
+
   }
 }
